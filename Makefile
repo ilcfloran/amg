@@ -2,8 +2,7 @@
 compose-build:
 	docker-compose \
 		--file docker-compose.yaml \
-		build \
-		backend
+		build --no-cache
 
 .PHONY: compose-up
 compose-up: compose-build
