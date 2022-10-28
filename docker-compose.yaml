@@ -23,5 +23,3 @@ services:
       - backend
     links:
       - backend
-    # environment:
-    #   - NEXT_PUBLIC_API_URL=backend:8000

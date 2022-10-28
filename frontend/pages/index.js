@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 import { useState } from 'react'
 
 export default function Home() {
-  const apiUrl = `${process.env.NEXT_PUBLIC_API_URL}` || 'http://localhost:3000'
+  const apiUrl = `${process.env.NEXT_PUBLIC_API_URL}` || 'http://localhost:8000'
   const [number, setNumber] = useState(0)
   const [answer, setAnswer] = useState('')
   const onSubmit = (e) => {
